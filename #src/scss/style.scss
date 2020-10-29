@@ -1,0 +1,131 @@
+@import "nullstyle";
+
+
+$grey: #27300f;
+$orange: #d26a22;
+$white: #ffffff;
+
+:root {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Jost', sans-serif;
+	color: $grey;
+}
+
+.wrapper {
+	max-width: 1440px;
+	margin: 0px auto;
+}
+
+.title {
+	font-family: 'Cormorant', serif;
+	font-size: 5rem;
+	span {
+		font-style: italic;
+	}
+}
+
+.btn {
+	color: $white;
+	background-color: $orange;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 1.3rem 2.68rem;
+	border-radius: 2rem;
+	letter-spacing: 0.075rem;
+	box-shadow: 0px 10px 11.18px 1.82px rgba(207, 92, 13, 0.2);	  
+}
+
+.header {
+	max-width: 1440px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 40px;
+	&-item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__tel {
+		text-decoration: none;
+		color: $grey;
+		transition: all .2s;
+		font-weight: 500;
+		&:hover {
+			color: $orange;
+		}
+	}
+}
+
+.logo {
+	width: 120px;
+	height: 32px;
+	margin-right: 120px;
+}
+
+.nav {
+	list-style-type: none;
+	display: flex;
+	&-item {
+		margin-right: 48px;
+	}
+	&-link {
+		text-decoration: none;
+		color: $grey;
+		transition: all .2s;
+		&:hover {
+			color: $orange;
+		}
+	}
+}
+
+.header-cart {
+	position: relative;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-left: 82px;
+	&__button {
+		width: 2.5rem;
+		height: 2.5rem;
+		background-color: $orange;
+		border-radius: 50%;
+		background-image: url("../img/cart.png");
+		background-size: 1rem 0.87rem;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	&__count {
+		position: absolute;
+		top: 6px;
+		right: 9px;
+		font-size: 0.5rem;
+		color: $white;
+	}
+}
+
+.section-main {
+	background: url("../img/bg_1.png") center center/cover no-repeat;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&-text {
+		flex: 0 0 40%;
+		&__descr {
+			font-size: 1.12rem;
+			line-height: 1.51;
+			margin-top: 3.75rem;
+			margin-bottom: 4.8rem;
+		}
+	}
+}
+
+.ml {
+	margin-left: 7.6rem;
+}
