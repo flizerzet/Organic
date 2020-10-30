@@ -134,6 +134,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 40px;
+  padding-bottom: 46px;
 }
 
 .header-item {
@@ -155,6 +156,7 @@ body {
   -o-transition: all .2s;
   transition: all .2s;
   font-weight: 500;
+  letter-spacing: 0.075rem;
 }
 
 .header__tel:hover {
@@ -194,7 +196,7 @@ body {
   position: relative;
   width: 2.5rem;
   height: 2.5rem;
-  margin-left: 82px;
+  margin-left: 80px;
 }
 
 .header-cart__button {
@@ -243,6 +245,24 @@ body {
   line-height: 1.51;
   margin-top: 3.75rem;
   margin-bottom: 4.8rem;
+}
+
+.main-visual {
+  border: 1px solid rgba(39, 48, 15, 0.4);
+  border-radius: 50%;
+  padding: 53px;
+}
+
+.main-visual__image {
+  border-radius: 50%;
+  border: 1px solid rgba(39, 48, 15, 0.4);
+  padding: 21px;
+}
+
+.main-visual__image img {
+  -webkit-box-shadow: 15px 48px 42px 0px rgba(39, 48, 15, 0.35);
+          box-shadow: 15px 48px 42px 0px rgba(39, 48, 15, 0.35);
+  border-radius: 50%;
 }
 
 .ml {
