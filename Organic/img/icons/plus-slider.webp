@@ -1,0 +1,13 @@
+<svg id="plus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #27300f;
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <circle id="Эллипс_10_копия" data-name="Эллипс 10 копия" class="cls-1" cx="25.5" cy="25.5" r="25"/>
+  <image id="plus-2" data-name="plus" x="18.5" y="18.5" width="14" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAR0lEQVQokWNUN+BnwAGqoMJt2KRZcOliYGAQwyPHwIRPcphoZIGGHraAsIfSE7DIvSLbRnzxCLOpAJvkSIkOXOAVThkGBgYASdIGNraGDWUAAAAASUVORK5CYII="/>
+</svg>
